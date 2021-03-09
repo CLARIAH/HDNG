@@ -27,7 +27,7 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 
 ## Script overview
 
-**1. transform HDNG from separate files into long format.R** transforms the HDNG v2 into long format.
+**1. transform HDNG from separate files into long format.R** transforms the HDNG v2 into long format.\n
 **2. transform HDNG_long to HDNG+HED.R** adds information from the HED to the HDNG.
 **3. provincietotalen.R** puts the provincial and national aggregates from the HED into long format.
 **4. add missings and provincietotalen to HDNG+.R** adds provincial and national aggregates from the HED.
