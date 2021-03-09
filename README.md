@@ -13,12 +13,14 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 **Version 2:** 
 - Was published online by Onno Boonstra as 11 separate csv files.
 - Added the Amsterdam-codes for all Dutch municipalities.
+- Dropped 15 variables.
 
 **Version 3:** 
 - Published the HDNG in one csv file. 
 - Transformed the HDNG from a wide format into long format, so that look-up tables are no longer necessary.
 - Added variables from the Historisch-Ecologische Database (HED) on religion.
 - Added provincial and national aggregates from the Historisch-Ecologische Database (HED).
+- Returned the 15 dropped variables.
 
 **Version 4:** 
 - Adds descriptive fields to the HDNG, to make the database more easily queryable. 
@@ -33,6 +35,6 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 
 **3. provincietotalen.R** puts the provincial and national aggregates from the HED into long format.
 
-**4. add missings and provincietotalen to HDNG+.R** adds provincial and national aggregates from the HED.
+**4. add missings and provincietotalen to HDNG+.R** adds provincial and national aggregates from the HED, as well as the 15 dropped variables.
 
 **5. filter existing municipalities.R** removes entries for non-existing municipalities at the moment of measurements, unless data is available for that municipality
