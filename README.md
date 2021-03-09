@@ -1,6 +1,6 @@
 # HDNG
 
-The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database Dutch Municipalities) and contains a wide range of historical indicators for Dutch municipalities between 1809 and 1979. The HDNG dates from the floppy disk era and has been made available online by Onno Boonstra. Hitherto, there have been 4 versions of the database:
+The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database Dutch Municipalities) and contains a wide range of historical indicators for Dutch municipalities for the 19th and 20th centuries. The HDNG dates from the floppy disk era and has been made available online by Onno Boonstra. Hitherto, there have been 4 versions of the database:
 
 ## Version history
 
