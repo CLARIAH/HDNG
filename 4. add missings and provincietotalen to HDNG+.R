@@ -13,8 +13,8 @@
   #provincietotalen
   prov <- read.csv("HDNG v4/Provinces.txt", header=T, sep="\t", stringsAsFactors=F)
   #sources
-  HDNGvar <- read.csv("HDNG csv/hdng variabelen.txt", header=T, sep="\t", stringsAsFactors=F)
-  HED <- read.csv("HDNG csv/HED DOCU.txt", header=T, sep="\t", stringsAsFactors=F)
+  HDNGvar <- read.csv("Input/HDNG/hdng variabelen.txt", header=T, sep="\t", stringsAsFactors=F)
+  HED <- read.csv("Input/HDNG/HED DOCU.txt", header=T, sep="\t", stringsAsFactors=F)
   
   #check whether all variables are in the HDNG
   x <- HDNG[!(HDNG$variable %in% prov$variable),]
@@ -24,8 +24,8 @@
   as.data.frame(table(tolower(y$variable)))
   
   #load required HED files
-  HEDE1 <- read.csv("HED/HEDEdata1.txt",header=T, sep="\t", stringsAsFactors=F)
-  HEDE2 <- read.csv("HED/HEDEdata2.txt",header=T, sep="\t", stringsAsFactors=F)
+  HEDE1 <- read.csv("Input/HED/HEDEdata1.txt",header=T, sep="\t", stringsAsFactors=F)
+  HEDE2 <- read.csv("Input/HED/HEDEdata2.txt",header=T, sep="\t", stringsAsFactors=F)
   HEDrest <- read.csv("HED/HEDoverig.txt",header=T, sep="\t", stringsAsFactors=F)
   colnames(HEDE1)[1] <- "databnr"
   colnames(HEDE2)[1] <- "databnr"

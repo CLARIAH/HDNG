@@ -11,11 +11,11 @@
   
   #load datasets
   #HED, religion
-  HEDC <- read.csv("HED/HEDCdata.txt",header=T, sep="\t", stringsAsFactors=F)
+  HEDC <- read.csv("Input/HED/HEDCdata.txt",header=T, sep="\t", stringsAsFactors=F)
   colnames(HEDC)[1] <- "databnr"
   #sources
-  HDNGvar <- read.csv("HDNG csv/hdng variabelen.txt", header=T, sep="\t", stringsAsFactors=F)
-  HED <- read.csv("HDNG csv/HED DOCU.txt", header=T, sep="\t", stringsAsFactors=F)
+  HDNGvar <- read.csv("Input/HDNG/hdng variabelen.txt", header=T, sep="\t", stringsAsFactors=F)
+  HED <- read.csv("Input/HDNG/HED DOCU.txt", header=T, sep="\t", stringsAsFactors=F)
   #HDNG
   HDNG <- read.csv("HDNG v4/HDNG_long.txt", header=T, sep="\t", stringsAsFactors=F)
   Sources <- read.csv("HDNG v4/Sources.txt", header=T, sep="\t", stringsAsFactors=F)

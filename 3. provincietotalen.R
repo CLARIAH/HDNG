@@ -9,21 +9,21 @@
   getwd()
   
   #load HED
-  HEDA <- read.csv("HED/HEDAdata.txt",header=T, sep="\t", stringsAsFactors=F)
-  HEDB <- read.csv("HED/HEDBdata.txt",header=T, sep="\t", stringsAsFactors=F)
-  HEDC <- read.csv("HED/HEDCdata.txt",header=T, sep="\t", stringsAsFactors=F)
-  HEDE1 <- read.csv("HED/HEDEdata1.txt",header=T, sep="\t", stringsAsFactors=F)
-  HEDE2 <- read.csv("HED/HEDEdata2.txt",header=T, sep="\t", stringsAsFactors=F)
-  HEDF <- read.csv("HED/HEDFdata.txt",header=T, sep="\t", stringsAsFactors=F)
-  HEDrest <- read.csv("HED/HEDoverig.txt",header=T, sep="\t", stringsAsFactors=F)
+  HEDA <- read.csv("Input/HED/HEDAdata.txt",header=T, sep="\t", stringsAsFactors=F)
+  HEDB <- read.csv("Input/HED/HEDBdata.txt",header=T, sep="\t", stringsAsFactors=F)
+  HEDC <- read.csv("Input/HED/HEDCdata.txt",header=T, sep="\t", stringsAsFactors=F)
+  HEDE1 <- read.csv("Input/HED/HEDEdata1.txt",header=T, sep="\t", stringsAsFactors=F)
+  HEDE2 <- read.csv("Input/HED/HEDEdata2.txt",header=T, sep="\t", stringsAsFactors=F)
+  HEDF <- read.csv("Input/HED/HEDFdata.txt",header=T, sep="\t", stringsAsFactors=F)
+  HEDrest <- read.csv("Input/HED/HEDoverig.txt",header=T, sep="\t", stringsAsFactors=F)
   colnames(HEDC)[1] <- "databnr"
   colnames(HEDE1)[1] <- "databnr"
   colnames(HEDE2)[1] <- "databnr"
   #HDNG+
   HDNG <- read.csv("HDNG v4/HDNG+.txt", header=T, sep="\t", stringsAsFactors=F)
   #sources
-  HDNGvar <- read.csv("HDNG csv/hdng variabelen.txt", header=T, sep="\t", stringsAsFactors=F)
-  HED <- read.csv("HDNG csv/HED DOCU.txt", header=T, sep="\t", stringsAsFactors=F)
+  HDNGvar <- read.csv("Input/HDNG/hdng variabelen.txt", header=T, sep="\t", stringsAsFactors=F)
+  HED <- read.csv("Input/HDNG/HED DOCU.txt", header=T, sep="\t", stringsAsFactors=F)
   
   #select provinces + NL
   HEDA <- HEDA[which(is.na(HEDA$cbsnr)),]

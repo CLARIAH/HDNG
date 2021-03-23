@@ -11,20 +11,20 @@
   
   #load files
   #HED
-  HED <- read.csv("HDNG csv/HED DOCU.txt", header=T, sep="\t", stringsAsFactors=F)
+  HED <- read.csv("Input/HDNG/HED DOCU.txt", header=T, sep="\t", stringsAsFactors=F)
   #HDNG
-  HDNG1 <- read.csv("HDNG csv/HDNG1.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
-  HDNG2 <- read.csv("HDNG csv/HDNG2.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
-  HDNG3 <- read.csv("HDNG csv/HDNG3.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
-  HDNG4 <- read.csv("HDNG csv/HDNG4.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
-  HDNG5 <- read.csv("HDNG csv/HDNG5.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
-  HDNG6 <- read.csv("HDNG csv/HDNG6.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
-  HDNG7 <- read.csv("HDNG csv/HDNG7.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
-  HDNG8 <- read.csv("HDNG csv/HDNG8.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
-  HDNG9 <- read.csv("HDNG csv/HDNG9.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
-  HDNG10 <- read.csv("HDNG csv/HDNG10.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
-  HDNG11 <- read.csv("HDNG csv/HDNG11.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
-  HDNGvar <- read.csv("HDNG csv/hdng variabelen.txt", header=T, sep="\t", stringsAsFactors=F)
+  HDNG1 <- read.csv("Input/HDNG/HDNG1.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
+  HDNG2 <- read.csv("Input/HDNG/HDNG2.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
+  HDNG3 <- read.csv("Input/HDNG/HDNG3.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
+  HDNG4 <- read.csv("Input/HDNG/HDNG4.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
+  HDNG5 <- read.csv("Input/HDNG/HDNG5.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
+  HDNG6 <- read.csv("Input/HDNG/HDNG6.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
+  HDNG7 <- read.csv("Input/HDNG/HDNG7.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
+  HDNG8 <- read.csv("Input/HDNG/HDNG8.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
+  HDNG9 <- read.csv("Input/HDNG/HDNG9.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
+  HDNG10 <- read.csv("Input/HDNG/HDNG10.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
+  HDNG11 <- read.csv("Input/HDNG/HDNG11.txt", quote="", header=T, sep="\t", stringsAsFactors=F)
+  HDNGvar <- read.csv("Input/HDNG/hdng variabelen.txt", header=T, sep="\t", stringsAsFactors=F)
 
   #remove duplicates
   length(which(duplicated(HDNG1$CBSNR))); length(which(duplicated(HDNG1$NAAM)))
