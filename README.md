@@ -20,7 +20,7 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 - Transformed the HDNG from a wide format into long format, so that look-up tables are no longer necessary.
 - Added variables from the Historisch-Ecologische Database (HED) on religion.
 - Added provincial and national aggregates from the Historisch-Ecologische Database (HED).
-- Returned 15 dropped variables.
+- Returned the 15 dropped variables.
 
 **Version 4:** 
 - Dropped redundant columns from version 3.
@@ -37,6 +37,6 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 
 **3. provincietotalen.R** puts the provincial and national aggregates from the HED into long format.
 
-**4. add missings and provincietotalen to HDNG+.R** adds provincial and national aggregates from the HED, as well as the 15 dropped variables.
+**4. add missings and provincietotalen to HDNG+.R** adds provincial and national aggregates from the HED, as well as the 15 variables dropped in HDNG v2.
 
 **5. filter existing municipalities.R** removes entries for non-existing and duplicated municipalities.
