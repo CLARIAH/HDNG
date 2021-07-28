@@ -14,14 +14,14 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 **Version 2 (HDNG, 2003):** 
 - Was published online by Onno Boonstra as 11 separate csv files.
 - Added the Amsterdam-codes for all Dutch municipalities.
-- Dropped 15 variables.
+- Dropped 14 variables.
 
 **Version 3 (HDNG, 2020):** 
 - Published the HDNG in one csv file. 
 - Transformed the HDNG from a wide format into long format, so that look-up tables are no longer necessary.
 - Added variables from the Historisch-Ecologische Database (HED) on religion.
 - Added provincial and national aggregates from the Historisch-Ecologische Database (HED).
-- Returned the 15 dropped variables.
+- Returned the 14 dropped variables.
 
 **Version 4 (HDNG, 2021):** 
 - Dropped redundant columns from previous versions.
