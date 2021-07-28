@@ -4,10 +4,10 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 
 ## Version history
 
-**Version 1:** 
+**Version 1 (HED):** 
 - Contains demographic indicators stored in wide format. 
 - Using municipality name and CBS-code as unique identifyers.
-- Information was stored on 7 floppy disks in .POR files.
+- Information was stored on 7 floppy disks in .POR (SPSS portable) files.
 - Variable names were coded as 8 digits, which were interpretable via a look-up table.
 
 **Version 2:** 
@@ -23,8 +23,8 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 - Returned the 15 dropped variables.
 
 **Version 4:** 
-- Dropped redundant columns from version 3.
-- Adds descriptive fields to the HDNG, to make the database more easily queryable.
+- Dropped redundant columns from previous versions.
+- Adds descriptive fields to the HDNG to make the database more easily queryable.
 - Adds visualisation descriptions to the HDNG, to enable hookups with NLGIS or other shapefiles.
 - Redundant rows have been removed from the database. 
 
