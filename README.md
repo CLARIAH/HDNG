@@ -20,7 +20,7 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 - Transformed the HDNG from a wide format into long format, so that look-up tables are no longer necessary.
 - Added variables from the Historisch-Ecologische Database (HED) on religion.
 - Added provincial and national aggregates from the Historisch-Ecologische Database (HED).
-- Returned the 15 dropped variables.
+- Returned 15 dropped variables.
 
 **Version 4:** 
 - Adds descriptive fields to the HDNG, to make the database more easily queryable. 
