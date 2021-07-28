@@ -23,8 +23,9 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 - Returned 15 dropped variables.
 
 **Version 4:** 
-- Restuctured the database.
+- Dropped redundant columns from version 3.
 - Adds descriptive fields to the HDNG, to make the database more easily queryable.
+- Adds visualisation descriptions to the HDNG, to enable hookups with NLGIS or other shapefiles.
 - Redundant rows have been removed from the database. 
 
 
