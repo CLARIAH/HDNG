@@ -6,7 +6,7 @@
   
   #define directory
   getwd()
-  setwd("C:/Surfdrive/CLARIAH/HDNG")
+  setwd("U:/Surfdrive/CLARIAH/HDNG")
   getwd()
   
   #load files
@@ -100,7 +100,7 @@
   as.data.frame(table(substr(HDNG$suffix,4,4)))
   HDNG$sex <- ifelse(substr(HDNG$suffix,4,4)=="1", "M",
                      ifelse(substr(HDNG$suffix,4,4)=="2","V", 
-                            ifelse(substr(HDNG$suffix,4,4)=="3","M+V", NA)))
+                            ifelse(substr(HDNG$suffix,4,4)=="3","_T", NA)))
   #delete abbreviated references to "men" in variable_name
   HDNG$variable_name <- ifelse(substr(HDNG$variable_name, nchar(HDNG$variable_name)-2, nchar(HDNG$variable_name))==", M", 
                                substr(HDNG$variable_name, 1, nchar(HDNG$variable_name)-3), HDNG$variable_name) #variable name ends in ", M"

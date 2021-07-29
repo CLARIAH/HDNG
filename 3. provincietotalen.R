@@ -5,7 +5,7 @@
   
   #define directory
   getwd()
-  setwd("C:/Surfdrive/CLARIAH/HDNG")
+  setwd("U:/Surfdrive/CLARIAH/HDNG")
   getwd()
   
   #load HED
@@ -116,7 +116,7 @@
   as.data.frame(table(substr(prov$suffix,4,4)))
   prov$sex <- ifelse(substr(prov$suffix,4,4)=="1", "M",
                      ifelse(substr(prov$suffix,4,4)=="2","V", 
-                            ifelse(substr(prov$suffix,4,4)=="3","M+V", NA)))
+                            ifelse(substr(prov$suffix,4,4)=="3","_T", NA)))
   #delete abbreviated references to "men" in variable_name
   prov$variable_name <- ifelse(substr(prov$variable_name, nchar(prov$variable_name)-2, nchar(prov$variable_name))==", M", 
                                 substr(prov$variable_name, 1, nchar(prov$variable_name)-3), prov$variable_name) #variable name ends in ", M"

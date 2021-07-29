@@ -5,7 +5,7 @@
   
   #define directory
   getwd()
-  setwd("C:/Surfdrive/CLARIAH/HDNG")
+  setwd("U:/Surfdrive/CLARIAH/HDNG")
   getwd()
   
   #load HDNG+
@@ -31,7 +31,7 @@
   colnames(HEDE2)[1] <- "databnr"
   
   #select missing variables
-  HEDE1 <- HEDE1[,c("naam","e849bed1","e849bed2","e859bev1","e859bev2","e859bev3")]
+  HEDE1 <- HEDE1[,c("naam","e849bed1","e849bed2","e859bev1","e859bev2")]
   HEDE2 <- HEDE2[,c("naam","e971hhou","e971nghh")]
   HEDrest <- HEDrest[,c("naam","d920egcb","d930egcb","d940egcc","d951egcd","d966ecsa","d971egca", "i889opha", "k947sfor")]
   
@@ -91,7 +91,7 @@
   as.data.frame(table(substr(missingHDNG$suffix,4,4)))
   missingHDNG$sex <- ifelse(substr(missingHDNG$suffix,4,4)=="1", "M",
                             ifelse(substr(missingHDNG$suffix,4,4)=="2","V",
-                                   ifelse(substr(missingHDNG$suffix,4,4)=="3","M+V", NA)))
+                                   ifelse(substr(missingHDNG$suffix,4,4)=="3","_T", NA)))
   #delete abbreviated references to "men" in variable_name
   missingHDNG$variable_name <- ifelse(substr(missingHDNG$variable_name, nchar(missingHDNG$variable_name)-2, nchar(missingHDNG$variable_name))==", M", 
                                substr(missingHDNG$variable_name, 1, nchar(missingHDNG$variable_name)-3), missingHDNG$variable_name) #variable name ends in ", M"

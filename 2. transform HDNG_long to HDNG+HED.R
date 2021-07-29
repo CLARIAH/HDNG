@@ -6,7 +6,7 @@
   
   #define directory
   getwd()
-  setwd("C:/Surfdrive/CLARIAH/HDNG")
+  setwd("U:/Surfdrive/CLARIAH/HDNG")
   getwd()
   
   #load datasets
@@ -18,7 +18,6 @@
   HED <- read.csv("Input/HDNG/HED DOCU.txt", header=T, sep="\t", stringsAsFactors=F)
   #HDNG
   HDNG <- read.csv("HDNG v4/HDNG_long.txt", header=T, sep="\t", stringsAsFactors=F)
-  Sources <- read.csv("HDNG v4/Sources.txt", header=T, sep="\t", stringsAsFactors=F)
   
   #koppeltabel maken
   HDNG2 <- HDNG[,c("CBSNR", "ACODE", "NAAM")]
@@ -82,7 +81,7 @@
   as.data.frame(table(substr(long1$suffix,4,4)))
   long1$sex <- ifelse(substr(long1$suffix,4,4)=="1", "M",
                      ifelse(substr(long1$suffix,4,4)=="2","V", 
-                            ifelse(substr(long1$suffix,4,4)=="3","M+V", NA)))
+                            ifelse(substr(long1$suffix,4,4)=="3","_T", NA)))
   #delete abbreviated references to "men" in variable_name
   long1$variable_name <- ifelse(substr(long1$variable_name, nchar(long1$variable_name)-2, nchar(long1$variable_name))==", M", 
                                substr(long1$variable_name, 1, nchar(long1$variable_name)-3), long1$variable_name) #variable name ends in ", M"
