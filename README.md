@@ -4,7 +4,7 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 
 ## Version history
 
-**Version 1 (HED, 1980-1990):** 
+**Version 1 (HED, 1970s-1980s):** 
 - Data gathered under supervision of Hans Knippenberg.
 - Contains demographic indicators stored in wide format. 
 - Using municipality name and CBS-code as unique identifyers.
