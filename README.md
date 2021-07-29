@@ -40,4 +40,4 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 
 **4. add missings and provincietotalen to HDNG+.R** adds provincial and national aggregates from the HED, as well as the 15 variables dropped in HDNG v2.
 
-**5. filter existing municipalities.R** removes entries for non-existing and duplicated municipalities.
+**5. filter existing municipalities.R** removes entries for non-existing municipalities.
