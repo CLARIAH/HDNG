@@ -55,3 +55,10 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 | **value** | score on description. |
 | **sources** | reference to source in ... | 
 | **remark** | reference to remarks in ... |
+
+
+
+| Original letters | Replaced by |
+| ---------------- | ----------- |
+| cc	| c |
+| c	| k |
