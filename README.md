@@ -47,10 +47,10 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 **amco**  
 **name**  
 **variable**  
-**description**
-**information**
-**sex**
-**year**
-**value**
-**sources**
-**remark**
+**description** 
+**information** 
+**sex** 
+**year**  
+**value** 
+**sources** 
+**remark**  
