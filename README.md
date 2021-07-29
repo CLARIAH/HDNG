@@ -50,6 +50,9 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 | c	| k |
 | z	| s |
 
+| amco | provides the _Amsterdamse code_, a 5-digit number to refer to municipalities |
+| name | the name of the municipality as provided in the HDNG v2 |
+
 
 | amco | provides the Amsterdamse code, a 5-digit number to refer to municipalities (https://nl.wikipedia.org/wiki/Amsterdamse_code) |
 | name | the name of the municipality as provided in the HDNG v2 |
