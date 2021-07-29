@@ -48,7 +48,7 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 | -------- | ----------- |
 | amco | provides the _Amsterdamse code_, a 5-digit number to refer to municipalities |
 | name | the name of the municipality as provided in the HDNG v2 |
-| variable | the original 8-digit variable name from the HED. The variable is now **redundant**. But originally was used to note a variable's topic (A-H), year (809-997), variable (3 letters), and sex (1,2,3,X). |
+| variable | the original 8-digit variable name from the HED. The variable is now _redundant_, but originally was used to note a variable's topic (A-H), year (809-997), variable (3 letters), and sex (1,2,3,X). |
 | description | queryable summary of the available variables in the HDNG. |
 | information | actual variables in the HDNG. |
 | sex | male (M), female (F), both sexes (-T), or not applicable ( ). |
