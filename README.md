@@ -44,24 +44,10 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 
 
 ## Variable description
-| Original letters | Replaced by |
-| ---------------- | ----------- |
-| cc	| c |
-| c	| k |
-| z	| s |
-
 | Variable | Description |
 | -------- | ----------- |
 | amco | provides the _Amsterdamse code_, a 5-digit number to refer to municipalities |
 | name | the name of the municipality as provided in the HDNG v2 |
-
-
-| amco | provides the Amsterdamse code, a 5-digit number to refer to municipalities (https://nl.wikipedia.org/wiki/Amsterdamse_code) |
-| name | the name of the municipality as provided in the HDNG v2 |
-
-
-| amco | provides the Amsterdamse code, a 5-digit number to refer to municipalities (https://nl.wikipedia.org/wiki/Amsterdamse_code). |
-| name | the name of the municipality as provided in the HDNG v2. |
 | variable | the original 8-digit variable name from the HED consisting of a topic (A-H), year (809-997), and variable (3 letters). |
 | description | queryable summary of the available variables in the HDNG. |
 | information | actual variables in the HDNG. |
