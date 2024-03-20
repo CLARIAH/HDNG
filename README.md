@@ -23,7 +23,7 @@ The HDNG is the Historische Database Nederlandse Gemeentes (Historical Database 
 - Added provincial and national aggregates from the Historisch-Ecologische Database (HED).
 - Returned the 14 dropped variables.
 
-**Version 4 (HDNG, 2021):** 
+**Version 4/5 (HDNG, 2021):** 
 - Dropped redundant columns from previous versions.
 - Adds descriptive fields to the HDNG to make the database more easily queryable.
 - Adds visualisation descriptions to the HDNG, to enable hookups with NLGIS or other shapefiles.
